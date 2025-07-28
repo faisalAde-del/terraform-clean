@@ -1,0 +1,24 @@
+# Local Terraform directories and files
+.terraform/              
+.terraform.lock.hcl      
+terraform.tfstate
+terraform.tfstate.backup
+
+# Sensitive variable files
+*.tfvars                 
+*.tfvars.json            
+
+# Crash logs & debug output
+crash.log
+*.log
+
+# SSH keys or private keys
+*.pem
+*.key
+
+# VS Code settings (optional)
+.vscode/
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
